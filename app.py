@@ -13,15 +13,15 @@ def main():
 
 @app.route('/experience')
 def experience():
-	print "in experience"
-	print url_for('experience')
+	# print "in experience"
+	# print url_for('experience')
 
 	return render_template('experience.html')
 
 @app.route('/about')
 def about():
-	print "in about"
-	print url_for('about')
+	# print "in about"
+	# print url_for('about')
 
 	return render_template('about.html')
 
@@ -34,8 +34,8 @@ def contact():
 
 @app.route('/portfolio')
 def portfolio():
-	print "in portfolio"
-	print url_for('about')
+	# print "in portfolio"
+	# print url_for('about')
 
 	return render_template('portfolio.html')
 
