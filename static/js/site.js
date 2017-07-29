@@ -1,12 +1,13 @@
 function sendRequest(param)
 {
 	//baseline url
-	var url = "http://127.0.0.1:5000/";
+	var url = "https://sebgrobelny.herokuapp.com/";
 
 	url = url+param;
 
 		// function reqListener(){
 	window.location.replace(url);
+
 	// }
 
 	// //put a request into FLASK
