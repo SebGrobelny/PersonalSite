@@ -27,7 +27,7 @@ def about():
 
 @app.route('/contact')
 def contact():
-	print "in contact"
+	# print "in contact"
 
 
 	return render_template('contact.html')
