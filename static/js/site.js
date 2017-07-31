@@ -1,7 +1,7 @@
 function sendRequest(param)
 {
 	//baseline url
-	var url = "http://sebgrobelny.us-west-1.elasticbeanstalk.com/";
+	var url = "https://sebgrobelny.herokuapp.com/";
 
 	url = url+param;
 
